@@ -30,7 +30,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
           <div className="md:col-span-1">
             <h3 className="text-xl font-bold text-gold-600 dark:text-gold-400 mb-4">Portfolio</h3>
             <p className="text-black dark:text-gold-400 mb-4">
-              Creating beautiful, functional, and user-friendly digital experiences.
+              
             </p>
             <div className="flex space-x-4">
               {socialLinks.map(link => {
@@ -67,29 +67,21 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
             </ul>
           </div>
           
-          <div className="md:col-span-1">
-            <h3 className="text-lg font-semibold mb-4 text-gold-600 dark:text-gold-400">Services</h3>
-            <ul className="space-y-2 text-black dark:text-gold-400">
-              <li>Web Development</li>
-              <li>Mobile Development</li>
-              <li>UI/UX Design</li>
-              <li>Consulting</li>
-            </ul>
-          </div>
+        
           
           <div className="md:col-span-1">
             <h3 className="text-lg font-semibold mb-4 text-gold-600 dark:text-gold-400">Contact</h3>
             <ul className="space-y-2 text-black dark:text-gold-400">
-              <li>San Francisco, CA</li>
-              <li>contact@janedoe.com</li>
-              <li>+1 (234) 567-890</li>
+              <li>Benguluru, India</li>
+              <li>allenngeorgek@gmail.com</li>
+              <li>+91 9946317858</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gold-600 dark:border-gold-400 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-black dark:text-gold-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Jane Doe. All rights reserved.
+            © {new Date().getFullYear()} Allenn George. All rights reserved.
           </p>
           <p className="text-black dark:text-gold-400 text-sm flex items-center">
             Made with <Heart size={14} className="mx-1 text-red-500" /> using React & Tailwind CSS
