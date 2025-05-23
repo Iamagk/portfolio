@@ -4,19 +4,24 @@ import { skills } from '../data/skills';
 // Example certifications array, update as needed
 const certifications = [
   {
-    name: 'Python for Everybody',
-    issuer: 'Coursera',
-    year: '2023'
-  },
-  {
-    name: 'Machine Learning',
-    issuer: 'Coursera',
+    name: 'Data Analytics',
+    issuer: 'Google',
     year: '2024'
   },
   {
-    name: 'Data Structures and Algorithms',
+    name: 'Introduction to MongoDB',
+    issuer: 'MongoDB',
+    year: '2024'
+  },
+  {
+    name: 'PCAP - Cisco Networking Academy',
+    issuer: 'Cisco',
+    year: '2024'
+  },
+  {
+    name: 'Business Fundamentals for Entrepreneurs',
     issuer: 'NPTEL',
-    year: '2023'
+    year: '2025'
   }
 ];
 
