@@ -14,7 +14,7 @@ export const projects: Project[] = [
   },
   {
     id: '8',
-    title: 'AI-Powered Intraday Trading Recommendation System',
+    title: 'Investor Recommendation System',
     description: 'An advanced AI-driven intraday stock, mutual fund, and gold trading recommendation platform that uses real-time market data, technical indicators, and ensemble machine learning models (Random Forest + XGBoost) to identify high-probability buy/sell opportunities. The system provides trade recommendations with entry/exit points, stop-loss, risk/reward ratios, and confidence scores, along with interactive candlestick charts showing buy/sell markers.',
     category: 'Machine Learning + Web Development',
     technologies: ['React.js', 'FastAPI', 'Python', 'XGBoost', 'scikit-learn', 'PostgreSQL', 'Tailwind CSS', 'Plotly.js', 'Yahoo Finance', 'Celery'],
