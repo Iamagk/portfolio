@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Play } from 'lucide-react';
 import { projects } from '../data/projects';
 
 const ProjectsSection: React.FC = () => {
@@ -79,6 +79,17 @@ const ProjectsSection: React.FC = () => {
               </div>
               
               <div className="p-6 pt-0 flex justify-end space-x-3">
+                {project.demoUrl && (
+                  <a 
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-2 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 hover:bg-green-200 dark:hover:bg-green-800/30 transition-colors"
+                    aria-label="View live demo"
+                  >
+                    <Play size={20} />
+                  </a>
+                )}
                 {project.githubUrl && (
                   <a 
                     href={project.githubUrl}

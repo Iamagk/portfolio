@@ -9,7 +9,8 @@ export const projects: Project[] = [
     technologies: ['Python', 'XGBoost', 'Yahoo Finance', 'React'],
     imageUrl: 'https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     projectUrl: '',
-    githubUrl: ''
+    githubUrl: '',
+    demoUrl: 'https://ml-fno-prediction.vercel.app'
   },
   {
     id: '2',

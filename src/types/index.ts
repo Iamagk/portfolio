@@ -7,6 +7,7 @@ export interface Project {
   imageUrl: string;
   projectUrl?: string;
   githubUrl?: string;
+  demoUrl?: string;
 }
 
 export interface Skill {
