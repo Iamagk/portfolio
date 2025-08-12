@@ -13,6 +13,16 @@ export const projects: Project[] = [
     demoUrl: 'https://ml-fno-prediction.vercel.app'
   },
   {
+    id: '8',
+    title: 'AI-Powered Intraday Trading Recommendation System',
+    description: 'An advanced AI-driven intraday stock, mutual fund, and gold trading recommendation platform that uses real-time market data, technical indicators, and ensemble machine learning models (Random Forest + XGBoost) to identify high-probability buy/sell opportunities. The system provides trade recommendations with entry/exit points, stop-loss, risk/reward ratios, and confidence scores, along with interactive candlestick charts showing buy/sell markers.',
+    category: 'Machine Learning + Web Development',
+    technologies: ['React.js', 'FastAPI', 'Python', 'XGBoost', 'scikit-learn', 'PostgreSQL', 'Tailwind CSS', 'Plotly.js', 'Yahoo Finance', 'Celery'],
+    imageUrl: 'https://images.pexels.com/photos/6802042/pexels-photo-6802042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    projectUrl: '',
+    githubUrl: ''
+  },
+  {
     id: '2',
     title: 'Sentiment Analysis for Stock Predictions',
     description: 'Implemented an NLP-based sentiment analysis system to classify market-relevant news and predict stock trends using ensemble models.',
