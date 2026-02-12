@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: 'Architected an end-to-end multilingual legal document processing pipeline integrating OCR (Tesseract with image preprocessing), layout-aware clause segmentation (IndicNLP), transformer-based NMT (IndicTrans2, InLegalTrans), domain-specific glossary enforcement, COMET-based quality evaluation (0.81–0.89 semantic scores), and structured DOCX/HTML reconstruction. Built a Streamlit web app for upload, side-by-side translation review, and export.',
     category: 'Academic Project',
     technologies: ['Python', 'Tesseract', 'IndicNLP', 'IndicTrans2', 'InLegalTrans', 'COMET', 'Streamlit', 'DOCX', 'HTML', 'OCR', 'NMT'],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Scales_of_justice.svg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Old_Supreme_Court_Chambers.JPG/1280px-Old_Supreme_Court_Chambers.JPG',
     projectUrl: '',
     githubUrl: ''
   },
