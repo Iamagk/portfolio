@@ -2,6 +2,16 @@ import { Project } from '../types';
 
 export const projects: Project[] = [
   {
+    id: '9',
+    title: 'Cross-Lingual Legal Document Processor (Transformer-Based NLP)',
+    description: 'Architected an end-to-end multilingual legal document processing pipeline integrating OCR (Tesseract with image preprocessing), layout-aware clause segmentation (IndicNLP), transformer-based NMT (IndicTrans2, InLegalTrans), domain-specific glossary enforcement, COMET-based quality evaluation (0.81–0.89 semantic scores), and structured DOCX/HTML reconstruction. Built a Streamlit web app for upload, side-by-side translation review, and export.',
+    category: 'Academic Project',
+    technologies: ['Python', 'Tesseract', 'IndicNLP', 'IndicTrans2', 'InLegalTrans', 'COMET', 'Streamlit', 'DOCX', 'HTML', 'OCR', 'NMT'],
+    imageUrl: 'https://images.pexels.com/photos/3845766/pexels-photo-3845766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    projectUrl: '',
+    githubUrl: ''
+  },
+  {
     id: '1',
     title: 'Futures & Options Stock Market Prediction System',
     description: 'Developed an ensemble-based predictive model for F&O trading signals, calculating strike, option and stoploss prices using technical indicators by integrating stock market data from Yahoo Finance and created a user interface using React for easy visualization.',
@@ -82,15 +92,6 @@ export const projects: Project[] = [
     projectUrl: '',
     githubUrl: ''
   }
-  ,
-  {
-    id: '9',
-    title: 'Cross-Lingual Legal Document Processor (Transformer-Based NLP)',
-    description: 'Architected an end-to-end multilingual legal document processing pipeline integrating OCR (Tesseract with image preprocessing), layout-aware clause segmentation (IndicNLP), transformer-based NMT (IndicTrans2, InLegalTrans), domain-specific glossary enforcement, COMET-based quality evaluation (0.81–0.89 semantic scores), and structured DOCX/HTML reconstruction. Built a Streamlit web app for upload, side-by-side translation review, and export.',
-    category: 'Academic Project',
-    technologies: ['Python', 'Tesseract', 'IndicNLP', 'IndicTrans2', 'InLegalTrans', 'COMET', 'Streamlit', 'DOCX', 'HTML', 'OCR', 'NMT'],
-    imageUrl: 'https://images.pexels.com/photos/3845766/pexels-photo-3845766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    projectUrl: '',
-    githubUrl: ''
-  }
+  
+  
 ];
