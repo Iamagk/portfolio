@@ -78,13 +78,13 @@ const AboutSection: React.FC = () => {
                   </div>
                   <div className="ml-auto md:w-5/12 p-6 bg-gold-100 dark:bg-gold-900/30 shadow-md rounded-lg">
                     <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
-                      B.E. Computer Science
+                      B.E. Computer Science (Honours)
                     </h4>
                     <p className="text-sm text-gold-600 dark:text-gold-400 mb-3">
                       BMS Institute of Technology, Bangalore &mdash; 2026
                     </p>
                     <p className="text-gray-700 dark:text-gold-100">
-                      CGPA: 8.44
+                      CGPA: 8.45
                     </p>
                   </div>
                 </div>
