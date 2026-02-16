@@ -1,75 +1,26 @@
 import React from 'react';
 // skills data rendered inline per requested structure
 
-// Certifications list updated per request
-const certifications = [
-  // NPTEL (12-Week Courses)
-  {
-    name: 'Business Fundamentals for Entrepreneurs — NPTEL (Jan–Apr 2025)',
-    issuer: 'NPTEL',
-    year: '2025'
-  },
-  {
-    name: 'Human Computer Interaction (In English) — NPTEL (Jan–Apr 2025)',
-    issuer: 'NPTEL',
-    year: '2025'
-  },
-
-  // VTU – Centre for Online Education (Elite Gold, 3 Credits Each)
-  {
-    name: 'Affective Computing',
-    issuer: 'VTU - Centre for Online Education (Elite Gold)',
-    year: '2026'
-  },
-  {
-    name: 'Blockchain and its Applications',
-    issuer: 'VTU - Centre for Online Education (Elite Gold)',
-    year: '2026'
-  },
-  {
-    name: 'Data Analytics with Python',
-    issuer: 'VTU - Centre for Online Education (Elite Gold)',
-    year: '2026'
-  },
-  {
-    name: 'Introduction to Industry 4.0 and Industrial Internet of Things',
-    issuer: 'VTU - Centre for Online Education (Elite Gold)',
-    year: '2026'
-  },
-  {
-    name: 'Social Networks',
-    issuer: 'VTU - Centre for Online Education (Elite Gold)',
-    year: '2026'
-  },
-  {
-    name: 'The Joy of Computing using Python',
-    issuer: 'VTU - Centre for Online Education (Elite Gold)',
-    year: '2026'
-  },
-
-  // Professional Certifications
-  {
-    name: 'Google Data Analytics Professional Certificate',
-    issuer: 'Google',
-    year: '2024'
-  },
-  {
-    name: 'Introduction to MongoDB',
-    issuer: 'MongoDB',
-    year: '2024'
-  },
-  {
-    name: 'PCAP – Programming Essentials in Python',
-    issuer: 'Cisco Networking Academy',
-    year: '2024'
-  }
+// Certifications structured and ordered for boxed grid rendering
+const certBoxes = [
+  { id: 'gda', title: 'Google Data Analytics Professional Certificate', issuer: 'Google', year: '2024' },
+  { id: 'pcap', title: 'PCAP – Programming Essentials in Python', issuer: 'Cisco Networking Academy', year: '2024' },
+  { id: 'hci', title: 'Human Computer Interaction', issuer: 'NPTEL (Jan–Apr 2025)', year: '2025' },
+  { id: 'dap', title: 'Data Analytics with Python', issuer: 'VTU (Elite Gold)', year: '2026' },
+  { id: 'affective', title: 'Affective Computing', issuer: 'VTU (Elite Gold)', year: '2026' },
+  { id: 'business', title: 'Business Fundamentals for Entrepreneurs', issuer: 'NPTEL (Jan–Apr 2025)', year: '2025' },
+  { id: 'mongo', title: 'Introduction to MongoDB', issuer: 'MongoDB', year: '2024' },
+  { id: 'joy', title: 'The Joy of Computing using Python', issuer: 'VTU (Elite Gold)', year: '2026' },
+  { id: 'blockchain', title: 'Blockchain and its Applications', issuer: 'VTU (Elite Gold)', year: '2026' },
+  { id: 'industry4', title: 'Introduction to Industry 4.0 and Industrial Internet of Things', issuer: 'VTU (Elite Gold)', year: '2026' },
+  { id: 'social', title: 'Social Networks', issuer: 'VTU (Elite Gold)', year: '2026' }
 ];
 
 // Define skill boxes to render in a grid of boxes (restores previous layout)
 const skillBoxes = [
   {
     id: 'ai',
-    label: '🧠 Artificial Intelligence & Data Systems',
+    label: 'Artificial Intelligence & Data Systems',
     items: [
       'Machine Learning',
       'Predictive Modeling & Backtesting',
@@ -81,7 +32,7 @@ const skillBoxes = [
   },
   {
     id: 'backend',
-    label: '⚙️ Backend & API Engineering',
+    label: 'Backend & API Engineering',
     items: [
       'Python',
       'FastAPI',
@@ -93,17 +44,17 @@ const skillBoxes = [
   },
   {
     id: 'db',
-    label: '🗄 Databases & Data Infrastructure',
+    label: 'Databases & Data Infrastructure',
     items: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQL', 'Database Design & Optimization']
   },
   {
     id: 'frontend',
-    label: '🌐 Frontend & Product Interface',
+    label: 'Frontend & Product Interface',
     items: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Responsive UI Development']
   },
   {
     id: 'core',
-    label: '🧩 Core Engineering Foundations',
+    label: 'Core Engineering Foundations',
     items: [
       'Data Structures & Algorithms',
       'Object-Oriented Programming (OOPS)',
@@ -114,7 +65,7 @@ const skillBoxes = [
   },
   {
     id: 'product',
-    label: '🚀 Product & Startup Orientation',
+    label: 'Product & Startup Orientation',
     items: [
       'Product Thinking',
       'Business & Market Awareness',
@@ -138,15 +89,15 @@ const SkillsSection: React.FC = () => {
         </div>
 
         {/* Restore boxed grid layout for skills */}
-        <div className="bg-gold-200 dark:bg-gold-900/30 rounded-lg p-8 shadow-md mb-10">
+        <div className="bg-gold-50 dark:bg-gold-800/30 rounded-lg p-8 shadow-md mb-10">
           <h3 className="text-xl font-semibold text-gold-700 dark:text-gold-300 mb-6">Skills</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {skillBoxes.map(box => (
               <div
                 key={box.id}
-                className="bg-gold-50 dark:bg-gold-800/40 rounded-lg p-4 shadow border border-gold-200 dark:border-gold-800"
+                className="bg-white dark:bg-black rounded-lg p-4 shadow border border-gold-200 dark:border-gold-800"
               >
-                <h4 className="text-gold-600 dark:text-gold-400 font-medium mb-2">{box.label}</h4>
+                <h4 className="text-gold-700 dark:text-gold-300 font-medium mb-2">{box.label}</h4>
                 <ul className="list-disc list-inside text-gray-800 dark:text-gold-100 mb-0">
                   {box.items.map(item => (
                     <li key={item}>{item}</li>
@@ -157,16 +108,21 @@ const SkillsSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Certifications Box */}
+        {/* Certifications rendered as boxed grid for readability */}
         <div className="bg-gold-50 dark:bg-gold-800/30 rounded-lg p-8 shadow-md">
-          <h3 className="text-xl font-semibold text-gold-700 dark:text-gold-300 mb-4">Certifications</h3>
-          <ul className="list-disc list-inside text-gray-800 dark:text-gold-100">
-            {certifications.map(cert => (
-              <li key={cert.name + cert.issuer} className="mb-2">
-                <span className="font-medium">{cert.name}</span> &mdash; {cert.issuer} <span className="text-sm text-gray-500">({cert.year})</span>
-              </li>
+          <h3 className="text-xl font-semibold text-gold-700 dark:text-gold-300 mb-6">Certifications</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {certBoxes.map(cert => (
+              <div
+                key={cert.id}
+                className="bg-white dark:bg-black rounded-lg p-4 shadow border border-gold-200 dark:border-gold-800"
+              >
+                <h4 className="text-gold-700 dark:text-gold-300 font-medium mb-2">{cert.title}</h4>
+                <p className="text-sm text-gray-700 dark:text-gold-100 mb-1">{cert.issuer}</p>
+                <p className="text-sm text-gray-500">{cert.year}</p>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     </section>
