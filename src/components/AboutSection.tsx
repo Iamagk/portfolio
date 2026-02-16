@@ -17,20 +17,20 @@ const AboutSection: React.FC = () => {
               
               <div className="space-y-4 text-gray-600 dark:text-gray-400">
                 <p>
-                  I’m Allenn George Kannadickal, a curious and driven Computer Science Engineering student at BMS Institute of Technology, Bangalore (Batch of 2026). I thrive on solving complex problems with clean code and data-driven thinking.
+                  I’m Allenn George Kannadickal, a Computer Science Engineering student at BMS Institute of Technology, Bangalore (Class of 2026), with a strong interest in building technology-driven businesses in the AI and software space.
                 </p>
                 <p>
-                  With a solid foundation in data structures, algorithms, full-stack development, and machine learning, I enjoy building tools that blend intelligent automation with intuitive user experiences. I’m fluent in C, C++, Java, Python, and modern web technologies like React, JavaScript, and MongoDB.
+                  I’m passionate about using artificial intelligence and scalable software systems to solve real-world problems. My foundation spans data structures and algorithms, backend engineering, full-stack development, and machine learning. I enjoy building end-to-end products — from data pipelines and predictive models to APIs and interactive dashboards — with a focus on both technical depth and business impact.
                 </p>
                 <p>
-                  My passion for AI applications, participation in open-source communities, and hands-on work with diverse tech stacks reflect my eagerness to keep learning and contributing. I’m also certified by Google (Data Analytics), MongoDB, and Cisco, further strengthening my technical foundation.
+                  Beyond writing code, I’m deeply interested in product strategy, startup ecosystems, and how technology transforms industries. I actively explore how AI can be applied to create efficient, scalable, and commercially viable solutions. Certifications in Data Analytics, Human-Computer Interaction, and entrepreneurship complement my hands-on project experience and reflect my interest in combining technical execution with business thinking.
                 </p>
                 <p>
-                  Whether it’s diving into a new tech stack or brainstorming product ideas, I bring strong problem-solving, communication, and team collaboration skills to the table. I’m currently exploring opportunities to intern in software engineering, aiming to grow alongside teams that value innovation, mentorship, and real-world impact.
+                  I’m currently seeking opportunities in software engineering and AI-driven product teams where I can contribute to building meaningful technology, learn from strong mentors, and grow within innovation-focused environments.
                 </p>
                 <p>
                   <span className="font-semibold">Outside of Tech</span><br />
-                  When I’m not coding or building something new, you’ll find me geeking out over watches, exploring photography, diving into financial market trends, or catching up on the latest breakthroughs in AI. I believe in continuous learning, staying curious, and enjoying the process just as much as the outcome.
+                  I closely follow developments in AI, financial markets, and emerging tech startups. I’m particularly interested in understanding how innovative ideas evolve into scalable ventures. I believe in continuous learning, strategic thinking, and building with long-term impact in mind.
                 </p>
               </div>
               
