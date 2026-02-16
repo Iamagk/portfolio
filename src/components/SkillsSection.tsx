@@ -1,10 +1,55 @@
 import React from 'react';
 // skills data rendered inline per requested structure
 
-// Example certifications array, update as needed
+// Certifications list updated per request
 const certifications = [
+  // NPTEL (12-Week Courses)
   {
-    name: 'Data Analytics',
+    name: 'Business Fundamentals for Entrepreneurs — NPTEL (Jan–Apr 2025)',
+    issuer: 'NPTEL',
+    year: '2025'
+  },
+  {
+    name: 'Human Computer Interaction (In English) — NPTEL (Jan–Apr 2025)',
+    issuer: 'NPTEL',
+    year: '2025'
+  },
+
+  // VTU – Centre for Online Education (Elite Gold, 3 Credits Each)
+  {
+    name: 'Affective Computing',
+    issuer: 'VTU - Centre for Online Education (Elite Gold)',
+    year: '2026'
+  },
+  {
+    name: 'Blockchain and its Applications',
+    issuer: 'VTU - Centre for Online Education (Elite Gold)',
+    year: '2026'
+  },
+  {
+    name: 'Data Analytics with Python',
+    issuer: 'VTU - Centre for Online Education (Elite Gold)',
+    year: '2026'
+  },
+  {
+    name: 'Introduction to Industry 4.0 and Industrial Internet of Things',
+    issuer: 'VTU - Centre for Online Education (Elite Gold)',
+    year: '2026'
+  },
+  {
+    name: 'Social Networks',
+    issuer: 'VTU - Centre for Online Education (Elite Gold)',
+    year: '2026'
+  },
+  {
+    name: 'The Joy of Computing using Python',
+    issuer: 'VTU - Centre for Online Education (Elite Gold)',
+    year: '2026'
+  },
+
+  // Professional Certifications
+  {
+    name: 'Google Data Analytics Professional Certificate',
     issuer: 'Google',
     year: '2024'
   },
@@ -14,14 +59,9 @@ const certifications = [
     year: '2024'
   },
   {
-    name: 'PCAP - Cisco Networking Academy',
-    issuer: 'Cisco',
+    name: 'PCAP – Programming Essentials in Python',
+    issuer: 'Cisco Networking Academy',
     year: '2024'
-  },
-  {
-    name: 'Business Fundamentals for Entrepreneurs',
-    issuer: 'NPTEL',
-    year: '2025'
   }
 ];
 
