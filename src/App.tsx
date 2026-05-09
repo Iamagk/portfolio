@@ -4,12 +4,13 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
+import PublicationsSection from './components/PublicationsSection';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 function App() {
-  const sections = ['home', 'projects', 'skills', 'about', 'contact'];
+  const sections = ['home', 'projects', 'skills', 'publications', 'about', 'contact'];
   const activeSection = useScrollspy(sections, 100);
   
   const scrollToSection = (sectionId: string) => {
@@ -34,6 +35,7 @@ function App() {
         <HeroSection />
         <ProjectsSection />
         <SkillsSection />
+        <PublicationsSection />
         <AboutSection />
         <ContactSection />
       </main>
