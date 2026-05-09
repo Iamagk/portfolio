@@ -8,7 +8,7 @@ const publications = [
   },
   {
     id: 'the-rule',
-    title: 'The Rule You Were Never Taught',
+    title: 'Author - The Rule You Were Never Taught',
     publisher: 'Notion Press',
     year: '2026'
   }
